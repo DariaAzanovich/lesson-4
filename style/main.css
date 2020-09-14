@@ -167,9 +167,6 @@ p {
   height: 368px;
   width: 30%;
 
-  /* margin-top: 40px;
-  margin-bottom: 40px; */
-
   font-family: 'Open-Sans', 'Arial', sans-serif;
   font-size: 14px;
   text-align: center;
@@ -504,8 +501,6 @@ button {
   height: 225px;
   width: 100%;
   margin-bottom: 101px;
-
-  /* text-align: left; */
 }
 
 .comments__box {
@@ -559,7 +554,6 @@ button {
 
 .comments__people span {
   display: inline-block;
-  /* width: 98px; */
 
   font-size: 14px;
   font-weight: normal;
