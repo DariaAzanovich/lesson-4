@@ -344,14 +344,7 @@ p {
 }
 
 /* -------------------------- PRICING OPTIONS ------------------------------- */
-.options-content {
-  height: 100%;
-  width: 100%;
-}
-.options-content__row {
-  height: 56%;
-  width: 343px;
-}
+
 
 /*---------------------------- Headers content -------------------------------*/
 
