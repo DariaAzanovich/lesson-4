@@ -235,16 +235,21 @@ p {
 
 /*------------------------------- SOCIAL MEDIA ------------------------------ */
 .social-media-content {
-  font-family: 'Open-Sans', 'Arial', sans-serif;
+  margin: 30px 0;
+  
   font-size: 14px;
 }
 
 .social-media__info {
   display: inline-block;
 
-  height: 61px;
+  height: 70px;
   width: 360px;
-  margin-top: 23px;
+  margin-right: 40px;
+}
+
+.social-media__info p {
+  height: auto;
 }
 
 .social-media__title {
@@ -256,11 +261,13 @@ p {
 
 .social-media__links {
   display: inline-block;
-  height: 46px;
-  /* width: 634px; */
+  height: 70px;
   padding-left: 0;
-  margin: 30px 0;
+  padding-top: 17px;
+
   opacity: 0.4;
+
+  vertical-align: top;
 }
 
 .social-media__links li {
