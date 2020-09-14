@@ -1,0 +1,688 @@
+/*---------------------------- DEFAULT styles --------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+}
+
+.wrapper {
+  display: inline-block;
+  /* width: 100%; */ width: 1401px;
+
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 0;
+}
+
+.section {
+  height: 884px;
+  width: 100%;
+}
+
+.content {
+  display: inline-block;
+  height: 100%;
+  width: 80%;
+
+  font-size: 0
+}
+
+.content-left {
+  text-align: left;
+}
+
+.links {
+  cursor: pointer;
+}
+
+p {
+  font-size: 14px;
+
+  color: #86878B;
+}
+/*---------------------------- HEADER content --------------------------------*/
+
+.header {
+  height: 71px;
+  width: 100%;
+  padding-top: 15px;
+
+  background-color: #000000;
+}
+
+.header-logo {
+  display: inline-block;
+  height: auto;
+  width: 79px;
+
+  font-size: 27px;
+  font-weight: bold;
+
+  color: #ffffff;
+
+  margin-left: 0;
+  margin-right: 536px;
+  /* font-size: 0; */
+}
+
+.header-logo span {
+  font-weight: normal;
+  color: #ff8c38;
+}
+
+.header-nav {
+  display: inline-block;
+  height: 27px;
+}
+
+.header-nav__list {
+  padding: 0;
+  list-style-type: none;
+  /* margin-bottom: 10px; */
+}
+
+.header-nav__item {
+  display: inline-block;
+}
+
+.header-nav__link {
+  margin-left: 46px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*---------------------------------- MAIN page -------------------------------*/
+
+.main-bg {
+  height: 641px;
+
+  background: url(../img/bg/city-building-ledder.png) no-repeat;
+  background-size: cover;
+
+  box-shadow: 0 0 0 350px rgba(0, 0, 0, 0.4) inset;
+}
+
+.main-info {
+  display: block;
+  width: 100%;
+  margin-top: 110px;
+  margin-bottom: 44px;
+
+  font-size: 0;
+}
+
+.axit-logo {
+  display: inline-block;
+  height: 60px;
+  width: 175px;
+  margin-bottom: 33px;
+
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+
+  /* font-size: 0;
+
+  background: url(../img/icons/axit-logo.png) no-repeat ; */
+}
+
+.axit-logo span {
+  color: #ff8c38;
+  font-weight: normal;
+}
+
+.main-header {
+  display: inline-block;
+  margin-right: 220px;
+}
+
+.main-header hr {
+  margin: 30px 0;
+
+  background-color: #ffffff;
+}
+
+.main-header h2 {
+  width: 512px;
+
+  letter-spacing: -1px;
+}
+
+.main-header h4 {
+  height: 61px;
+  width: 461px;
+
+  margin-bottom: 44px;
+
+  line-height: 1.5;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+/* ------------------- Main page FORM ---------------------*/
+.free-trial {
+  display: inline-block;
+
+  height: 368px;
+  width: 30%;
+
+  /* margin-top: 40px;
+  margin-bottom: 40px; */
+
+  font-family: 'Open-Sans', 'Arial', sans-serif;
+  font-size: 14px;
+  text-align: center;
+
+  background-color: #ffffff;
+}
+
+.free-trial span {
+  text-transform: uppercase;
+
+  color: #ff8c38;
+}
+
+.free-trial h3,
+.free-trial .form-button {
+  height: 54px;
+  width: 100%;
+}
+
+.free-trial h3 {
+    background-color: #f5f5f5;
+}
+
+.free-trial input {
+  height: 31px;
+  width: 285px;
+
+  margin-bottom: 40.25px;
+
+  border: none;
+  font-family: 'Open-Sans', 'Arial', sans-serif;
+}
+
+.form-button {
+  margin-bottom: 0;
+
+  background-color: #ff8c38;
+}
+
+/*------------------------------- SOCIAL MEDIA ------------------------------ */
+.social-media-content {
+  font-family: 'Open-Sans', 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+.social-media__info {
+  display: inline-block;
+
+  height: 61px;
+  width: 360px;
+  margin-top: 23px;
+}
+
+.social-media__title {
+  padding-bottom: 12px;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.social-media__links {
+  display: inline-block;
+  height: 46px;
+  /* width: 634px; */
+  padding-left: 0;
+  margin: 30px 0;
+  opacity: 0.4;
+}
+
+.social-media__links li {
+  display: inline-block;
+  margin: 0 26px;
+}
+
+.social-media__links .logo
+{
+  height: 46px;
+  width: 46px;
+}
+
+/* ------------------------------- SOFT TRANSITION -------------------------- */
+
+.soft-transition,
+.pricing-options {
+  background-color: #f5f5f5;
+}
+
+.soft-transition-content {
+  height: 336px;
+  margin-top: 148px;
+  margin-bottom: 114px;
+}
+
+.tab {
+  height: 100%;
+  display: inline-block;
+
+  text-align: center;
+  font-size: 0;
+}
+
+.tab-column {
+  margin-right: 100px;
+}
+
+.tab__item {
+  display: block;
+  height: 111px;
+  width: 112px;
+
+  border-bottom: 1px solid #ffffff;
+
+  background-color: #333333;
+}
+
+.tab__item-rounding
+{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.tab__item-chosen {
+  background-color: #ff8c38;
+
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tab__item p {
+  padding-top: 48px;
+  font-size: 15px;
+  font-weight: bold;
+
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.tab__description {
+  width: 476px;
+  margin-right: 103px;
+
+  text-align: left;
+}
+
+.tab__description-text  {
+  padding-top: 52px;
+  margin-bottom: 37px;
+}
+
+.tab__description-text p {
+  padding-bottom: 15px;
+}
+
+.btn-download-orange {
+  display: inline-block;
+  width: 121px;
+  height: 46px;
+  margin: 0;
+
+  font-weight: normal;
+
+  background-color: #ff8c38;
+  border-radius: 5px;
+  border: none;
+}
+
+.tab__img-reflection {
+  width: 320px;
+  height: 253px;
+
+  background: url(../img/miniatures/city-mirror-reflection.png) no-repeat center center;
+}
+
+/* -------------------------- PRICING OPTIONS ------------------------------- */
+.options-content {
+  height: 100%;
+  width: 100%;
+}
+.options-content__row {
+  height: 56%;
+  width: 343px;
+}
+
+/*---------------------------- Headers content -------------------------------*/
+
+.content-header {
+  padding-top: 107px;
+  padding-bottom: 40px;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+
+  border: none;
+
+  color: #212121;
+}
+
+hr {
+  width: 64px;
+  height: 2px;
+  margin: 30px auto;
+
+  background-color: #ff8c38;
+  border: none;
+}
+
+h4 {
+  height: 14px;
+
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: -0.04px;
+  line-height: 0.85;
+
+  color: #86878b;
+}
+
+.white-header {
+  padding-top: 76px;
+  padding-bottom: 26px;
+}
+
+.main-header h2,
+.white-header h2 {
+  color: #ffffff;
+}
+
+.white-header hr {
+  background-color: #ffffff;
+}
+
+.white-header h4 {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+
+  color: #000000;
+}
+/*------------------------------ Main text content ---------------------------*/
+
+.container {
+  padding-top: 40px;
+  padding-bottom: 102px;
+}
+
+.box {
+  display: inline-block;
+  width: 350px;
+}
+
+.box-center {
+  margin: 0 32px;
+}
+
+.subtitle {
+  width: 181px;
+  height: 21px;
+  margin: 29px auto 25px auto;
+
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  line-height: 0.85;
+
+  color: #333333;
+}
+
+.subtitle-center {
+  width: 122px;
+  height: 17px;
+  margin-bottom: 29px;
+
+  text-align: left;
+}
+
+.text {
+  height: 52px;
+  padding: 0;
+
+  font-size: 14px;
+
+  letter-spacing: -0.04px;
+  line-height: 1.27;
+
+  color: #86878B;
+}
+
+/*---------------------------- Buttons style- --------------------------------*/
+button {
+  width: 135px;
+  height: 42px;
+  margin-bottom: 62px;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  color: #ffffff;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+.btn-download-center {
+
+}
+
+.btn-download-left {
+  right: 200px;
+}
+
+
+/*----------------------------- Background images-----------------------------*/
+.icon {
+  height: 70px;
+  width: 70px;
+  margin: 0 auto;
+
+  border: 2.5px solid #ff8c38;
+  border-radius: 50%;
+}
+
+.bulb-icon {
+  background: url(../img/icons/light-bulb.png) no-repeat center center;
+}
+
+.keyboard-icon {
+  background: url(../img/icons/keyboard.png) no-repeat center center;
+}
+
+.lightning-icon {
+  background: url(../img/icons/lightning.png) no-repeat center center;
+}
+
+.background {
+  height: 321px;
+
+  background: url(../img/bg/city.png) no-repeat center center;
+  background-size: cover;
+
+  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.4) inset;
+}
+
+/* ------------------------------ COMMENTS page ----------------------------- */
+
+.comments {
+  height: 225px;
+  width: 100%;
+  margin-bottom: 101px;
+
+  /* text-align: left; */
+}
+
+.comments__box {
+  display: inline-block;
+  /* height: 220px; */
+  width: 273px;
+
+  font-size: 0;
+}
+
+.comments__box-center {
+  margin: 0 120px;
+}
+
+.comments__box-triangle {
+  width: 0;
+	height: 0;
+  margin-left: 20px;
+  margin-bottom: 8px;
+
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #f5f5f5;
+}
+
+.comments__text p {
+  height: 120px;
+  padding: 15px 12px;
+
+  text-align: left;
+
+  background-color: #f5f5f5;
+}
+
+.comments__people {
+  height: 70px;
+  width: 100%;
+
+  text-align: left;
+}
+
+.comments__people p {
+  display: inline-block;
+  width: 98px;
+  margin-left: 15px;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.comments__people span {
+  display: inline-block;
+  /* width: 98px; */
+
+  font-size: 14px;
+  font-weight: normal;
+  color: #86878B;
+}
+
+.comments__image {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  margin: 0;
+
+  font-size: 0;
+}
+
+.jeremy_comment {
+  background: url(../img/people/jeremy-jhon-susan2.png) no-repeat center center;
+}
+
+/*------------------------------ Contact us ----------------------------------*/
+
+.contact-us {
+  display: inline-block;
+  height: 179px;
+  width: 100%;
+  margin-bottom: 80px;
+
+  text-align: left;
+
+  font-size: 0;
+}
+
+.contact-us input {
+  height: 31px;
+  width: 527px;
+
+  border: none;
+  border-bottom: 2px solid #f5f5f5;
+  font-family: 'Open-Sans', 'Arial', sans-serif;
+}
+
+.contact-us li {
+  list-style-type: none;
+}
+
+.contact-us input[type=text],
+.contact-us input[type=email],
+.contact-us input[type=textarea]
+{
+  margin-bottom: 30px;
+}
+
+.contact-us input[type=button]
+{
+  height: 46px;
+  width: 148px;
+  text-align: center;
+
+  border-bottom: none;
+  background-color: #ff8c38;
+}
+
+.contact-us input[placeholder="Message"]
+{
+  height: 100%;
+}
+/*---------------------------- Footer content --------------------------------*/
+footer {
+  height: 101px;
+  background-color: #000000;
+  padding: 39px 0 39px;
+}
+
+.socials {
+    padding-left: 0;
+}
+
+.socials li {
+  display: inline-block;
+  margin: auto 11px;
+}
+
+.logo {
+  height: 23px;
+  width: 23px;
+}
+
+.socials {
+  margin-bottom: 15px;
+}
+
+.copyright {
+  font-size: 12px;
+
+  color: #ffffff;
+}
+
+
+/* ------------------------- */
