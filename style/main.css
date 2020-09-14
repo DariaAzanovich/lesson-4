@@ -584,26 +584,44 @@ button {
   box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.4) inset;
 }
 
-/*------------------------------ CONTACT US page ----------------------------------*/
+/*------------------------------ Contact us ----------------------------------*/
 
 .contact-us {
   display: inline-block;
-  height: 179px;
+  height: 242px;
   width: 100%;
+  margin-top: 40px;
   margin-bottom: 80px;
 
-  text-align: left;
+  text-align: center;
 
   font-size: 0;
 }
 
-.contact-us input {
+.contact-us input,
+.contact-us textarea {
   height: 31px;
   width: 527px;
 
   border: none;
-  border-bottom: 2px solid #f5f5f5;
+  border-bottom: 2px solid #bdbdbd;
+  font-size: 14px;
   font-family: 'Open-Sans', 'Arial', sans-serif;
+}
+
+input::placeholder,
+textarea::placeholder {
+  padding-left: 15px;
+  color: #bdbdbd;
+}
+
+.contact-us ul {
+  display: inline-block;
+  height: 153px;
+  padding-left: 0;
+  margin-right: 66px;
+
+  font-size: 0;
 }
 
 .contact-us li {
@@ -614,23 +632,26 @@ button {
 .contact-us input[type=email],
 .contact-us input[type=textarea]
 {
+  padding: 0;
   margin-bottom: 30px;
 }
 
-.contact-us input[type=button]
-{
-  height: 46px;
+.contact-us textarea {
+  display: inline-block;
+  height: 153px;
+  padding: 0;
+
+  vertical-align: top;
+
+  resize: none;
+}
+
+.contact-us button {
+  padding: 0;
+  margin-top: 43px;
   width: 148px;
-  text-align: center;
-
-  border-bottom: none;
-  background-color: #ff8c38;
 }
 
-.contact-us input[placeholder="Message"]
-{
-  height: 100%;
-}
 /*---------------------------- FOOTER content --------------------------------*/
 footer {
   height: 101px;
