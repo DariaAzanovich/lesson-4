@@ -42,6 +42,22 @@ p {
 
   color: #86878B;
 }
+
+button {
+  width: 135px;
+  height: 42px;
+  margin-bottom: 60px;
+  padding: 0;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  color: #ffffff;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
 /*---------------------------- HEADER content --------------------------------*/
 
 .header {
@@ -233,10 +249,15 @@ p {
   background-color: #ff8c38;
 }
 
-/*------------------------------- SOCIAL MEDIA ------------------------------ */
+.btn-download-left {
+  padding: 0;
+  margin: 0;
+}
+
+/*---------------------------- SOCIAL MEDIA page ---------------------------- */
 .social-media-content {
   margin: 30px 0;
-  
+
   font-size: 14px;
 }
 
@@ -281,7 +302,7 @@ p {
   width: 46px;
 }
 
-/* ------------------------------- SOFT TRANSITION -------------------------- */
+/* ---------------------------- SOFT TRANSITION page ------------------------ */
 
 .soft-transition,
 .pricing-options {
@@ -374,10 +395,7 @@ p {
   background: url(../img/miniatures/city-mirror-reflection.png) no-repeat center center;
 }
 
-/* -------------------------- PRICING OPTIONS ------------------------------- */
-
-
-/*---------------------------- Headers content -------------------------------*/
+/* ----------------------- WHY THIS IS AWESOME page ------------------------- */
 
 .content-header {
   padding-top: 107px;
@@ -440,8 +458,7 @@ h3 {
 
   color: #000000;
 }
-/*------------------------------ WHY THIS IS AWESOME page ---------------------------*/
-
+/* --------------- Main content -------------- */
 .container {
   padding-top: 40px;
   padding-bottom: 102px;
@@ -489,6 +506,7 @@ h3 {
   color: #86878B;
 }
 
+/*--------------- Background icons--------------------*/
 .icon {
   height: 70px;
   width: 70px;
@@ -510,23 +528,104 @@ h3 {
   background: url(../img/icons/lightning.png) no-repeat center center;
 }
 
-/*---------------------------- Buttons style- --------------------------------*/
-button {
-  width: 135px;
-  height: 42px;
-  margin-bottom: 62px;
+/* ------------------------- PRICING OPTIONS page --------------------------- */
+.options-content {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding-top: 40px;
 
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 0;
+}
+.options-content__row {
+  display: inline-block;
+  height: 56%;
+  width: 100%;
 
-  color: #ffffff;
-
-  background-color: transparent;
-  border: 2px solid #ffffff;
+  margin-bottom: 96px;
 }
 
-.btn-download-left {
-  right: 200px;
+.row-tab {
+  display: inline-block;
+  width: 31%;
+}
+.row-tab-center {
+  margin: 0 3.5%;
+}
+
+.orange-row {
+  height: 5px;
+
+  background-color: #ff8c38;
+}
+
+.orange-row-center {
+  height: 40px;
+  padding-top: 3%;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.orange-row-center p {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.while-row p {
+  height: 40px;
+  padding-top: 3%;
+  background-color: #ffffff;
+
+  border-bottom: 1px solid #f5f5f5;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.black-row {
+  height: 210px;
+  width: 100%;
+
+  color: #ffffff;
+  background-color: #333333;
+
+  text-align: center;
+}
+
+.black-row-type {
+  height: 28%;
+  padding-top: 5%;
+}
+
+.black-row h3 {
+  color: #ffffff;
+}
+
+.black-row-price {
+  height: 48%;
+
+  padding-top: 5%;
+
+  border-top: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+
+  font-size: 68px;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.black-row-price span {
+  font-size: 35px;
+}
+
+.black-row-period {
+  height: 24%;
+  padding-top: 5%;
+
+  font-style: italic;
+  font-weight: 600;
 }
 
 /* ------------------------------ COMMENTS page ----------------------------- */
@@ -535,11 +634,12 @@ button {
   height: 225px;
   width: 100%;
   margin-bottom: 101px;
+
+  /* text-align: left; */
 }
 
 .comments__box {
   display: inline-block;
-  /* height: 220px; */
   width: 273px;
 
   font-size: 0;
@@ -551,13 +651,13 @@ button {
 
 .comments__box-triangle {
   width: 0;
-  height: 0;
+	height: 0;
   margin-left: 20px;
   margin-bottom: 8px;
 
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-top: 20px solid #f5f5f5;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #f5f5f5;
 }
 
 .comments__text p {
@@ -571,13 +671,14 @@ button {
 
 .comments__people {
   height: 70px;
-  width: 100%;
+  width: 70%;
 
   text-align: left;
 }
 
 .comments__people p {
   display: inline-block;
+  height: 100%;
   width: 98px;
   margin-left: 15px;
 
@@ -607,18 +708,7 @@ button {
   background: url(../img/people/jeremy-jhon-susan.png) no-repeat center center;
 }
 
-/*------------------------------ STYLISH AXURE DESIGN ------------------------------*/
-
-.background {
-  height: 321px;
-
-  background: url(../img/bg/city.png) no-repeat center center;
-  background-size: cover;
-
-  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.4) inset;
-}
-
-/*------------------------------ Contact us ----------------------------------*/
+/*------------------------------ CONTACT US page -----------------------------*/
 
 .contact-us {
   display: inline-block;
@@ -639,13 +729,13 @@ button {
 
   border: none;
   border-bottom: 2px solid #bdbdbd;
-  font-size: 14px;
-  font-family: 'Open-Sans', 'Arial', sans-serif;
 }
 
 input::placeholder,
 textarea::placeholder {
   padding-left: 15px;
+
+  font-size: 14px;
   color: #bdbdbd;
 }
 
@@ -684,6 +774,17 @@ textarea::placeholder {
   padding: 0;
   margin-top: 43px;
   width: 148px;
+}
+
+/*----------------------- STYLISH AXURE DESIGN page --------------------------*/
+
+.background {
+  height: 321px;
+
+  background: url(../img/bg/city.png) no-repeat center center;
+  background-size: cover;
+
+  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.4) inset;
 }
 
 /*---------------------------- FOOTER content --------------------------------*/
